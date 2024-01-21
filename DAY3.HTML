@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>DAY3</title>
+</head>
+<body>
+<h3 > <span style="background-color:gray; font-family: jokerman;">Store hours</span> </h3>
+<table border="1" style="background-color: lightblue;">
+<tr style="background-color:greenyellow;">
+	<th width="100">sunday</th>
+	<th width="100">monday</th>
+	<th width="100">tuesday</th>
+	<th width="100">wedenesday</th>
+	<th width="100">thursday</th>
+	<th width="100">friday</th>
+	<th width="100">saturday</th>
+</tr>
+<tr align="centre">
+	<td>9-5</td>
+	<td>9-5</td>
+	<td>9-5</td>
+	<td>9-5</td>
+	<td>9-5</td>
+	<td style="background-color:lightsalmon;">10-4</td>
+	<td style="background-color: tomato;">closed</td>
+	</tr>
+</table> 
+<hr>
+<h3>to insert header and footer</h3>
+<header style="background-color:greenyellow; color: black; border:1 ;">
+	<h2>welcome to my website </h2>
+	<tr>
+	<a href="">Home</a>
+	<a href="">About me</a>
+	<a href="">Contact Us</a>
+</tr>
+	<hr>
+</header>
+<h2>Here is an incredible moove for you ..</h2>
+<img src="images/download.jpg" width="200px" height="200px">
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+<footer style="background-color:greenyellow; color: black;">
+	<hr>
+	author:sandip yadav<br>
+	&copy : cpoyright reserved 2024<br>
+	<a href="mailto:brocode@fake.com">brocode@fake.com</a>
+	<header>
+</footer>
+<hr>
+
+<h4>to create a form</h4>
+<form action="index.php" method="POST" enctype="multipart/form-data">
+	<label for="Username"></label>
+	<input type="text" id="Username"  placeholder="1stName LastName" required minlength="8" maxlength="18">
+	<br>
+	<label>password</label>
+	<input type="password" id="password" required minlength="8" maxlength="14" >
+	<br>
+	<label for="email">email</label>
+	<input type="email" id="email" placeholder="abc123@gmail.com">
+	<br>
+	<label for="phone">phone number</label>
+	<input type="tel" id="phone" placeholder="9800000000" pattern="[0-9]{1,}" ><br>
+	<label for="birthday">birthday</label>
+	<input type="date" id="birthday" required placeholder="mm/dd/year"><br>
+	<label for="quqntity">How many cerrtificate do you have ?</label>
+	<input type="number" id="quantity"   min="0" max="12"  value="3">
+	<br>
+	<label for="title">Title :</label>
+	<label for="Mr.">Mr.</label>
+	<input type="radio"  id="Mr." value="Mr." name="title">
+	<label for="Mrs.">Mrs.</label>
+	<input type="radio" id="Mrs." value="Mrs." name="title">
+	<label for="Phd">Phd</label>
+	<input type="radio" id="Phd" value="Phd" name="title">
+	<br>
+	<label for="gender">Gender:</label>
+        <select id="gender" name="gender" required>
+            <option value="male">Male</option>
+            <option value="female">Female</option>
+            <option value="other">Other</option>
+        </select>
+        <br>
+	<label for="payment">payment method</label>
+	<select id="payment">
+		<option value="esewa" >esewa</option>
+		<option value="imepay">imepay</option>
+		<option value="khalti">khalti</option>
+	</select>
+	<br>
+	<label for="intrest">Intrested</label>
+	<input type="checkbox" id="intrest" >
+	<br>
+	<label for="adress">Adresss</label>
+	<textarea id="adress" rows="3" columns="25 "></textarea>
+	<br>
+	<label for="image">Image</label>
+	<input type="file" id="file" accept="image/png,image/jpeg">
+	<br>
+
+
+	<input type="reset" ><br>
+	<input type="submit" >
+</form>
+</body>
+</html>
